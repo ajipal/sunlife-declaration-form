@@ -46,13 +46,10 @@ p{
 }
 
 .side-bar-text {
-    width: auto;
     max-width: 200px;
     top: 295px;
     left: 50px;
     font-size: 13px;
-    display: flex;
-    flex-direction: column;
     position: relative;
     text-align: right;
     color: rgba(0, 57, 85, 0.75); 
@@ -213,7 +210,7 @@ input {
 }
 
 .business_TIN_box, .contact_person_box, .designation_box {
-    width: 230px;
+    width: 232px;
 }
 
 .business_address_box {
@@ -221,15 +218,13 @@ input {
 }
 
 .business_phone_box {
-    width: 170px;
+    width: 180px;
 }
 
 /*BUTTON PART*/
 .button-container {
     display: flex;
     position: relative;
-    right: -800px;
-    bottom: -13px; /*can edit: ibaba according sa haba*/
 }
 
 .button-back, .button-next {
@@ -243,6 +238,9 @@ input {
     font-weight: bold;
     border-color: white;
     cursor: pointer;
+    position: relative;
+    left: 800px; /*edit this for button position*/
+    top: 10px; /*edit this for button position*/
 }
 
 .button-back {
@@ -321,3 +319,9 @@ input {
     width:400px;
     text-align: right;
 }
+
+/* USE THIS TO CHECK OVERFLOW
+* {
+    outline: 1px solid red;
+}
+*/
