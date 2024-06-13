@@ -40,12 +40,14 @@ p{
     height: 800px;     /*can edit: pahabain*/
     background-color: rgba(229, 229, 229, 0.50);
     min-height: 100px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
 .side-bar-text {
-    width: 200px;
+    width: auto;
+    max-width: 200px;
     top: 295px;
     left: 50px;
     font-size: 13px;
