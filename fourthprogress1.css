@@ -308,7 +308,7 @@ input {
     cursor: pointer;
     position: relative;
     left: 800px; /*edit this for button position*/
-    bottom: -30px; /*edit this for button position*/
+    bottom: -15px; /*edit this for button position*/
 }
 
 .button-back {
