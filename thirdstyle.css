@@ -187,12 +187,14 @@ fieldset {
 
 input {
     height: 40px;
+    font-family: 'Helvetica Neue', sans-serif;
     width: 300px;
     margin-left: 80px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
     border-radius: 15px; backdrop-filter: blur(40px);
+    text-indent: 10px;
 }
 
 .row1, .row2, .row3, .row4 {
