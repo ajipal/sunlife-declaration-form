@@ -37,7 +37,7 @@ p{
 
 .side-bar {
     width: 288px;
-    height: 800px;     /*can edit: pahabain*/
+    height: 1950px;     /*can edit: pahabain*/
     background-color: rgba(229, 229, 229, 0.50);
     min-height: 100px;
     display: flex;
@@ -46,9 +46,9 @@ p{
 }
 
 .side-bar-text {
-    max-width: 200px;
+    max-width: 220px;
     top: 295px;
-    left: 50px;
+    left: 3%;
     font-size: 13px;
     position: relative;
     text-align: right;
@@ -173,59 +173,234 @@ p{
     margin: 30px 0px 5px 60px;
 }
 
-.category-title {
+.category-title { 
     color: rgba(0, 57, 85);
     font-size: 15px;
     font-weight: 500;
     margin: 30px 0px 5px 80px;
 }
 
+.present-row {
+    margin-top: -75px;
+    margin-left: 550px;
+}
+
+
+
 fieldset {
     border: none;
     display: flex;
 }
 
-input {
+.policy_owner_name_box, .birthdate, .on_the_life_of_box, .religion_box, .birthplace, .citizenship, .idpresented {
     height: 40px;
-    font-family: 'Helvetica Neue', sans-serif;
     width: 300px;
     margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
     border-radius: 15px; backdrop-filter: blur(40px);
-    text-indent: 10px;
 }
 
-.row1, .row2, .row3, .row4 {
-    display: flex;
+/*custom size of country textfield*/
+
+.country {
+    height: 40px;
+    width: 520px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
 }
+
+/*custom size of age textfield*/
+
+.age {
+    height: 40px;
+    width: 120px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
+}
+
+/*custom size of ids textfield*/
+
+.idnumber, .idexp, .tin, .SSS, .workphone, .mobilephone, .homephone{
+    height: 40px;
+    width: 210px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
+}
+
+/*explain if there is no css*/
+.explain, .permanent, .present, .business{
+    height: 40px;
+    width: 920px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
+}
+
+.email, .sincewhen{
+    height: 40px;
+    width: 600px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12, .row13, .row14{
+    display: flex;
+    
+}
+
+.form-group, .religion-group  {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.ifyesbox {
+    flex-direction: column;
+    margin-left: 660px;
+    
+}
+
+.ifyes {
+    height: 40px;
+    width: 210px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
+    border-radius: 15px; backdrop-filter: blur(40px);
+}
+
+
 
 .smallname{
     color: gray;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
+/*checkbox*/
+
+.sexcheckbox, .intentioncheckbox, .havecheckbox {
+    margin-left: 40px;
+    margin-top: 30px;
 }
+
+.sex{
+    color: rgba(0, 57, 85);
+    margin-bottom: 15px;
+    font-size: 15px;
+   
+}
+
+.intentionto, .haveyou{
+    color: rgba(0, 57, 85);
+    margin-bottom: 55px;
+    font-size: 15px;
+   
+   
+}
+
+.checkbox-row, .present-row{
+    display: flex;
+    color: rgba(0, 57, 85);
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+
+.intentioncheckbox-row {
+    color: rgba(0, 57, 85);
+  
+}
+
+.havecheckbox-row {
+    padding-left: 15px;
+    margin-top: -30px;
+    color: rgba(0, 57, 85);
+    
+}
+
+
+.cbox1, .cbox2
+{
+   height: 15px;
+   width: 15px;
+   color: rgba(0, 57, 85);
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+.havecbox1, .havecbox2 {
+    height: 15px;
+    width: 15px;
+    color: rgba(0, 57, 85);
+    margin-top: 15px;
+    padding-left: px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.intentioncbox1, .intentioncbox2
+{
+    height: 15px;
+    width: 15px;
+    color: rgba(0, 57, 85);
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
 
 /*FILLUP PART--edit per input*/
-.business_name_box, .relationship_life_insured_box, .business_reg_box, .business_type_box {
-    width: 390px;
-}
 
-.business_TIN_box, .contact_person_box, .designation_box {
-    width: 232px;
-}
-
-.business_address_box {
-    width: 600px;
-}
-
-.business_phone_box {
-    width: 180px;
-}
 
 /*BUTTON PART*/
 .button-container {
@@ -246,7 +421,7 @@ input {
     cursor: pointer;
     position: relative;
     left: 800px; /*edit this for button position*/
-    top: 10px; /*edit this for button position*/
+    top: 80px; /*edit this for button position*/
 }
 
 .button-back {

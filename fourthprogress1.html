@@ -7,6 +7,7 @@
         <title>Declaration Form</title>
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="fourthprogress1.css"> 
+        <link rel="icon" href="image/sunlife-tab.png">
     </head>
     <body>
 
@@ -72,14 +73,15 @@
 
                     <fieldset class="row1">
                         <div class="form-group">
-                            <input class="Medical_Y_N_box" id="Medical_Y" name="Medical_Y_N" type="radio" checked/>
-                            <label class="category-title" for="Medical_Y">YES </label>
-                        </div>
-                        <div class="form-group">
-                            <input class="Medical_Y_N_box" id="Medical_N" name="Medical_Y_N" type="radio" />
-                            <label class="category-title" for="Medical_N">NO</label>
+                            <input class="Medical_Y_N_box" id="Medical_Y" name="Medical_Y_N" type="checkbox" checked > YES
+                            <input class="Medical_Y_N_box" id="Medical_N" name="Medical_Y_N" type="checkbox" > NO
                         </div>
                     </fieldset>
+
+                    <!--script for only 1 can be select-->
+                    <script>
+
+                    </script>
 
                     <fieldset class="row2">
                         <button class="add">+</button>
@@ -111,7 +113,7 @@
                                 <option value="3">Often</option>
                                 <option value="4">Always</option>
                         </select>
-                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="text" required />
+                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="date" required />
                     </fieldset>
                     <fieldset class="row4">
                         <button class="minus">-</button>
@@ -124,7 +126,7 @@
                                 <option value="3">Often</option>
                                 <option value="4">Always</option>
                         </select>
-                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="text" required />
+                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="date" required />
                     </fieldset>
                     <fieldset class="row5">
                         <button class="minus">-</button>
@@ -137,7 +139,7 @@
                                 <option value="3">Often</option>
                                 <option value="4">Always</option>
                         </select>
-                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="text" required />
+                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="date" required />
                     </fieldset>
                     <fieldset class="row6">
                         <button class="minus">-</button>
@@ -150,7 +152,7 @@
                                 <option value="3">Often</option>
                                 <option value="4">Always</option>
                         </select>
-                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="text" required />
+                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="date" required />
                     </fieldset>
                     <fieldset class="row7">
                         <button class="minus">-</button>
@@ -163,15 +165,19 @@
                                 <option value="3">Often</option>
                                 <option value="4">Always</option>
                         </select>
-                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="text" required />
+                        <input class="date_last_used_box" id="date_last_used" name="date_last_used" type="date" required />
                     </fieldset>
                 </div>
                 <!--FILL-UP ENDING-->
 
                 <!--BUTTONS-->
                 <div class="button-container">
-                    <button class="button-back">BACK</button>
-                    <button class="button-next">NEXT</button>
+                    <a href="thirdprogress.html">
+                        <button class="button-back">BACK</button>
+                        </a>
+                        <a href="">
+                        <button class="button-next">NEXT</button>
+                        </a>
                 </div>
             </div>
 

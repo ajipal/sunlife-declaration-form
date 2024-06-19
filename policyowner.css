@@ -37,7 +37,7 @@ p{
 
 .side-bar {
     width: 288px;
-    height: 800px;     /*can edit: pahabain*/
+    height: 600px;     /*can edit: pahabain*/
     background-color: rgba(229, 229, 229, 0.50);
     min-height: 100px;
     display: flex;
@@ -185,47 +185,62 @@ fieldset {
     display: flex;
 }
 
-input {
+.policy_owner_name_box, .policy_owner_box, .on_the_life_of_box {
     height: 40px;
-    font-family: 'Helvetica Neue', sans-serif;
     width: 300px;
     margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-indent: 10px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 2px 7px -1px rgba(0, 57, 85, 0.50); 
     border-radius: 15px; backdrop-filter: blur(40px);
-    text-indent: 10px;
 }
 
-.row1, .row2, .row3, .row4 {
+.row1, .row2 {
     display: flex;
-}
-
-.smallname{
-    color: gray;
+    
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+    
+}
+
+/*checkbox*/
+
+.purposecheckbox {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.purpose {
+    color: rgba(0, 57, 85);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.checkbox-row {
+    display: flex;
+    color: rgba(0, 57, 85);
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+
+.cbox1, .cbox2, .cbox3 
+{
+   height: 15px;
+   width: 15px;
+   color: rgba(0, 57, 85);
+   margin-left: 50px;
+   cursor: pointer;
 }
 
 /*FILLUP PART--edit per input*/
-.business_name_box, .relationship_life_insured_box, .business_reg_box, .business_type_box {
-    width: 390px;
-}
 
-.business_TIN_box, .contact_person_box, .designation_box {
-    width: 232px;
-}
-
-.business_address_box {
-    width: 600px;
-}
-
-.business_phone_box {
-    width: 180px;
-}
 
 /*BUTTON PART*/
 .button-container {

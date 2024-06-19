@@ -205,6 +205,9 @@ input {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    color: rgba(0, 57, 85);
+    margin-left: 50px;
+    cursor: pointer; 
 }
 
 .question {
